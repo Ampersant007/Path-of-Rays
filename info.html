@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Информация</title>
+    <script
+      src="https://kit.fontawesome.com/9d1a86738f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style-info.css"/>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="header">
+        <nav>
+          <a href="index.html">
+            <img src="text-logo.png" class="logo" alt="logotype">
+          </a>
+          <input type="checkbox" id="toggler">
+          <label for="toggler" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          
+          <div class="menu">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a class="active" href="info.html">Info</a></li>
+              <li><a href="download.html">Download</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section></section>
+    </header>
+
+    <main>
+      <div class="slider-panel">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide">
+              <img src="example-1.png" alt="1" />
+            </div>
+            <div class="slide">
+              <img src="example-2.png" alt="2" />
+            </div>
+            <div class="slide">
+              <img src="example-3.png" alt="3" />
+            </div>
+            <div class="slide">
+              <img src="example-4.png" alt="4" />
+            </div>
+          </div>
+
+          <div class="buttons">
+            <button onclick="prevSlide()">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button onclick="nextSlide()">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="dots-container"></div>
+        </div>
+        <article class="card">
+          <div class="card-info">
+            <h3>Play strategy</h3>
+            <p>
+              solution can b e easy to backsolution can b e easy to back,
+              solution can b e easy to back , solution can b e esolution can b e
+              easy to back.
+            </p>
+          </div>
+        </article>
+      </div>
+      <ul class="img-container">
+        <li>
+          <img src="example-1.png" alt="1img">
+          <div class="content">
+            <span>
+              <h2>GAME</h2>
+              <p>sdfghjkl drtyuikmnbvg esxcvg, df kk</p>
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <img src="example-2.png" alt="2img">
+          <div class="content">
+            <span>
+              <h2>GAME</h2>
+              <p>sdfghjkl drtyuikmnbvg esxcvg, df kk</p>
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <img src="example-3.png" alt="3img">
+          <div class="content">
+            <span>
+              <h2>GAME</h2>
+              <p>sdfghjkl drtyuikmnbvg esxcvg, df kk</p>
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <img src="example-4.png" alt="4img">
+          <div class="content">
+            <span>
+              <h2>GAME</h2>
+              <p>sdfghjkl drtyuikmnbvg esxcvg, df kk</p>
+            </span>
+          </div>
+        </li>
+      </ul>
+      <script src="slider.js"></script>
+    </main>
+
+    <footer>
+      <div class="footer-top">
+        <img src="text-logo.png" class="footer-logo" alt="logo" />
+        <nav class="socials">
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-viber"></i></a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <h4>Developers</h4>
+          <ul>
+            <li><a href="">Danic</a></li>
+            <li><a href="">Egor</a></li>
+            <li><a href="">Polina</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Sources</h4>
+          <ul>
+            <li><a href="">HTML</a></li>
+            <li><a href="">GIT</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Sources</h4>
+          <address>
+            Belarusion State University<br />
+            + 375 17 209-50-44
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
