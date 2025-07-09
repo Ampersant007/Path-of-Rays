@@ -1,8 +1,4 @@
 
-/* video{
-    max-width: 70%;
-    height: auto;
-} */
 .dvd{
     display: flex;
     justify-content: center;
@@ -37,8 +33,11 @@
     gap: 1rem;
 }
 .card-info h3{
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
 }
 .card-info p{
-    font-size: 15px;
+    font-size: 17px;
+    text-indent: 30px; 
+    line-height: 1.4;
 }
