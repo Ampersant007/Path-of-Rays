@@ -5,6 +5,7 @@
 }
 .dvd video{
     margin: 30px;
+    align-self: center;
     border-radius: 20px;
     overflow: hidden;
     border: 6px solid #ed6537;
@@ -24,6 +25,7 @@
     border-radius: 25px;
     overflow: hidden;
     cursor: pointer;
+    align-self: center;
 }
 .card-info{
     padding: 20px;
@@ -40,4 +42,20 @@
     font-size: 17px;
     text-indent: 30px; 
     line-height: 1.4;
+}
+@media (max-width: 1000px){
+    .dvd{
+        flex-direction: column;
+        & video{
+            width: 80%;
+        }
+    }
+    /* .card-info{
+        & h3{
+            font-size: 4.3vw;
+        }
+        & p{
+            font-size: 3vw;
+        }
+    } */
 }
